@@ -1,2 +1,1 @@
-# Programaci-n_I_Universidad_Unicaribe
-Bimestre Mayo-Junio 2016
+# Práctica final de la asignatura PROGRAMACION I – { MARZO - JUNIO 2016}
