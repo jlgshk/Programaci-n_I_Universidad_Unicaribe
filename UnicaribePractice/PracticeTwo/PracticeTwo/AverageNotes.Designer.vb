@@ -57,7 +57,7 @@ Partial Class AverageNotes
         '
         'Btn
         '
-        Me.Btn.Image = Global.PracticeTwo.My.Resources.Resources.edit_clear
+        Me.Btn.Image = Global.UnicaribePractices.My.Resources.Resources.edit_clear
         Me.Btn.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Btn.Location = New System.Drawing.Point(6, 121)
         Me.Btn.Name = "Btn"

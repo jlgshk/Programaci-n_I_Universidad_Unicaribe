@@ -25,4 +25,19 @@
         Dim primo As NumeroPrimos = New NumeroPrimos()
         primo.ShowDialog()
     End Sub
+
+    Private Sub Button6_Click(sender As System.Object, e As System.EventArgs) Handles Button6.Click
+        Dim frm As FrmHomePractice = New FrmHomePractice()
+        frm.ShowDialog()
+    End Sub
+
+    Private Sub Button7_Click(sender As System.Object, e As System.EventArgs) Handles Button7.Click
+        Dim factorial As FrmFactorial = New FrmFactorial()
+        factorial.ShowDialog()
+    End Sub
+
+    Private Sub Button8_Click(sender As System.Object, e As System.EventArgs) Handles Button8.Click
+        Dim posAndNeg As FrmIdentifiedNumberPosAndNeg = New FrmIdentifiedNumberPosAndNeg()
+        posAndNeg.ShowDialog()
+    End Sub
 End Class

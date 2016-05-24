@@ -1,7 +1,7 @@
 ﻿Imports System.Text
 
 
-Public Class FrmHonePractice
+Public Class FrmHomePractice
     Dim listOfNum As List(Of Integer)
 
     Private Sub FrmHonePractice_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
@@ -68,7 +68,7 @@ Public Class FrmHonePractice
     Private Sub GenerateTable(num As Integer)
         ClearListViewBox()
         For item = 1 To 12
-            Dim output = String.Format("{0} x {1} = {2}", item, num, (item * num))
+            Dim output = String.Format("{0} x {1} = {2}", num, item, (item * num))
             DisplayDataListBox.Items.Add(output)
         Next
     End Sub

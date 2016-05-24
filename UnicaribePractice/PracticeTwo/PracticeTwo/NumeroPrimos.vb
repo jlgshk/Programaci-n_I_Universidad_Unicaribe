@@ -2,7 +2,7 @@
 
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
         For x = 1 To 100
-            If EsPrimo(x) Then
+            If EsPrimo(x) And Not x = 1 Then
                 ListBox1.Items.Add(x)
             End If
         Next

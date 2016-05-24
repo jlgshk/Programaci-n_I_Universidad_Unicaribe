@@ -31,7 +31,7 @@
         Dim data As Integer = 0
 
         If e.KeyData = Keys.Enter Then
-            If Not contador = 6 Then
+            If Not contador = 5 Then
                 If Integer.TryParse(TextBoxNote.Text, data) And data > 0 And data <= 100 Then
                     'Agregar logica para mostrar promedio y calificaciones en un label
                     LblNotes.Text += TextBoxNote.Text + " "

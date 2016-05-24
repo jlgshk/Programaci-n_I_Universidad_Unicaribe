@@ -76,7 +76,7 @@ Partial Class DiferentDates
         '
         'Button2
         '
-        Me.Button2.Image = Global.PracticeTwo.My.Resources.Resources._1463537368_refresh
+        Me.Button2.Image = Global.UnicaribePractices.My.Resources.Resources._1463537368_refresh
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button2.Location = New System.Drawing.Point(15, 172)
         Me.Button2.Name = "Button2"
@@ -88,7 +88,7 @@ Partial Class DiferentDates
         '
         'Button1
         '
-        Me.Button1.Image = Global.PracticeTwo.My.Resources.Resources.Clock
+        Me.Button1.Image = Global.UnicaribePractices.My.Resources.Resources.Clock
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.Button1.Location = New System.Drawing.Point(145, 172)
         Me.Button1.Name = "Button1"
@@ -102,7 +102,7 @@ Partial Class DiferentDates
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(251, 262)
+        Me.ClientSize = New System.Drawing.Size(235, 262)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
