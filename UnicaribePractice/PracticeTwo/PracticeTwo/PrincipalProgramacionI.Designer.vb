@@ -31,6 +31,8 @@ Partial Class PrincipalProgramacionI
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.MCMButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -105,11 +107,31 @@ Partial Class PrincipalProgramacionI
         Me.Button8.Text = "Contar Negativo y Positivo"
         Me.Button8.UseVisualStyleBackColor = True
         '
+        'Button9
+        '
+        Me.Button9.Location = New System.Drawing.Point(389, 147)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(75, 23)
+        Me.Button9.TabIndex = 5
+        Me.Button9.Text = "ASCII"
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'MCMButton
+        '
+        Me.MCMButton.Location = New System.Drawing.Point(389, 197)
+        Me.MCMButton.Name = "MCMButton"
+        Me.MCMButton.Size = New System.Drawing.Size(75, 23)
+        Me.MCMButton.TabIndex = 6
+        Me.MCMButton.Text = "MCM"
+        Me.MCMButton.UseVisualStyleBackColor = True
+        '
         'PrincipalProgramacionI
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(505, 257)
+        Me.Controls.Add(Me.MCMButton)
+        Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
@@ -135,4 +157,6 @@ Partial Class PrincipalProgramacionI
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents Button7 As System.Windows.Forms.Button
     Friend WithEvents Button8 As System.Windows.Forms.Button
+    Friend WithEvents Button9 As System.Windows.Forms.Button
+    Friend WithEvents MCMButton As System.Windows.Forms.Button
 End Class

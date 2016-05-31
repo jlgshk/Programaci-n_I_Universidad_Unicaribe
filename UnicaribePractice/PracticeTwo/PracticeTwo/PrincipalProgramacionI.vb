@@ -40,4 +40,18 @@
         Dim posAndNeg As FrmIdentifiedNumberPosAndNeg = New FrmIdentifiedNumberPosAndNeg()
         posAndNeg.ShowDialog()
     End Sub
+
+    Private Sub PrincipalProgramacionI_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Button9_Click(sender As System.Object, e As System.EventArgs) Handles Button9.Click
+        Dim frmASCII = New FrmASCIICode()
+        frmASCII.ShowDialog()
+    End Sub
+
+    Private Sub MCMButton_Click(sender As System.Object, e As System.EventArgs) Handles MCMButton.Click
+        Dim frmMCM = New FrmMCM()
+        frmMCM.ShowDialog()
+    End Sub
 End Class

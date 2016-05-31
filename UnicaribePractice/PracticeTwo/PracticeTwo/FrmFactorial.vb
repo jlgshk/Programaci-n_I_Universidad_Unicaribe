@@ -15,10 +15,10 @@
             End Try
             NumberTextBox.Text = String.Empty
         Else
-            Dim msg = String.Format("Debe ingresar un número positivo.")
+
+            Dim msg = String.Format("Debe ingresar un número mayor que cero")
             MsgBox(msg)
             NumberTextBox.Text = String.Empty
-
         End If
 
         NumberTextBox.Focus()

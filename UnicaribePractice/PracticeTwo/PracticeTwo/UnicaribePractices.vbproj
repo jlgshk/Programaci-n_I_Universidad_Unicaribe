@@ -104,6 +104,18 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Asignatura.vb" />
+    <Compile Include="FrmASCIICode.Designer.vb">
+      <DependentUpon>FrmASCIICode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmASCIICode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEcuacionPrimerGrado.Designer.vb">
+      <DependentUpon>FrmEcuacionPrimerGrado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEcuacionPrimerGrado.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmFactorial.Designer.vb">
       <DependentUpon>FrmFactorial.vb</DependentUpon>
     </Compile>
@@ -120,6 +132,12 @@
       <DependentUpon>FrmIdentifiedNumberPosAndNeg.vb</DependentUpon>
     </Compile>
     <Compile Include="FrmIdentifiedNumberPosAndNeg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMCM.Designer.vb">
+      <DependentUpon>FrmMCM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMCM.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -163,6 +181,12 @@
     <EmbeddedResource Include="DiferentDates.resx">
       <DependentUpon>DiferentDates.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmASCIICode.resx">
+      <DependentUpon>FrmASCIICode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEcuacionPrimerGrado.resx">
+      <DependentUpon>FrmEcuacionPrimerGrado.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmFactorial.resx">
       <DependentUpon>FrmFactorial.vb</DependentUpon>
     </EmbeddedResource>
@@ -171,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmIdentifiedNumberPosAndNeg.resx">
       <DependentUpon>FrmIdentifiedNumberPosAndNeg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMCM.resx">
+      <DependentUpon>FrmMCM.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
